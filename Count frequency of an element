@@ -1,0 +1,9 @@
+int key = 10;
+int count = 0;
+
+for(int num : arr){
+    if(num == key)
+        count++;
+}
+
+System.out.println(count);
